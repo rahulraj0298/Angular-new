@@ -26,9 +26,8 @@ steps:
     organization: 'rahulraj0298rr'
     scannerMode: 'CLI'
     configMode: 'manual'
-    cliProjectKey: 'rahulraj0298rr'
+    cliProjectKey: 'rahul.angularnew'
     cliSources: '.'
-
 - task: SonarCloudAnalyze@1
 - task: SonarCloudPublish@1
   inputs:
